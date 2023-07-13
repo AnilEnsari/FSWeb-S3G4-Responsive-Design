@@ -1,0 +1,77 @@
+/*  border: solid 1px red; */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding: 10px 150px;
+  background-color: grey;
+}
+
+header nav a {
+  background-color: white;
+  color: black;
+}
+
+header nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+.container-anaekran {
+  margin: 0.5rem;
+  display: flex;
+}
+
+.container-resim img {
+  max-width: 50vh;
+  flex-basis: 5px;
+}
+.container-proje {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+}
+.container-proje a {
+  min-width: 10rem;
+  background-color: #393e46;
+  color: #eeeeee;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.container-fotolar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.fotolardivi img {
+  width: 70%;
+}
+
+.fotolardivi {
+  width: 25%;
+  text-align: center;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: grey;
+  height: 150px;
+  text-align: center;
+  font-size: larger;
+}
+footer a {
+  display: flex;
+  background-color: #393e46;
+  color: #eeeeee;
+  justify-content: center;
+  align-content: center;
+}
